@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Journal</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="holder headline">Weather Journal App</div>
+      <div class="holder zip">
+        <!-- <label for="zip">Enter Zipcode here</label> -->
+        <input type="text" id="zip" placeholder="Enter Zipcode here" />
+        <small id="error"></small>
+      </div>
+      <div class="holder feel">
+        <!-- <label for="feelings">How are you feeling today?</label> -->
+        <textarea class="myInput" id="feelings" rows="9" cols="50" placeholder="How are you feeling today?"></textarea>
+        <button id="generate" type="submit">Generate</button>
+      </div>
+      <p id="p">to see zipcodes for USA cites press <a href="https://www.unitedstateszipcodes.org/" target="_blank" rel="noopener" class="link">here</a></p>
+      <div id="entry">
+        <div class="title">Most Recent Entry</div>
+        <div id="entryHolder">
+          <div id="city"></div>
+          <div id="temp"></div>
+          <div id="date"></div>
+          <div id="description"></div>
+          <div id="content"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
