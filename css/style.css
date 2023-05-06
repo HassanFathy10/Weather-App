@@ -30,7 +30,7 @@ body {
 #zip,
 #feelings,
 #generate{
-    background: #04658b75;
+    background: #859baf75;
     margin: 60px auto 0px;
     width: 40%;
     outline: none;
@@ -88,7 +88,7 @@ body {
 
 .link{
     font-size: 1em;
-    color: rgb(104, 14, 146);
+    color: rgb(22, 209, 194);
 }
 
 #entry{
