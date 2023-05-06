@@ -11,7 +11,7 @@
 body {
     margin: 160px;
     padding: 0;
-    background: url(/images/Untitled-1.png);
+    background-image: linear-gradient(180deg, #00d4ff 0%, #090979 45%, #00d4ff 100%);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -66,7 +66,8 @@ body {
     margin-top: 0;
 }
 
-#generate{
+#generate {
+    text-align: center;
     width: 20%;
     margin-top: 18px;
     background: #0a1b3a;
