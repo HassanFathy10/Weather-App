@@ -11,7 +11,7 @@
 body {
     margin: 160px;
     padding: 0;
-    background: url(/images/sky.jpg);
+    background: url(../images/sky.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
